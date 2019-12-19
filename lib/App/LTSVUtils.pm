@@ -6,7 +6,7 @@ package App::LTSVUtils;
 1;
 # ABSTRACT: CLI utilities related to LTSV
 
-=for Pod::Coverage ^(csvutil)$
+=for Pod::Coverage ^(ltsvutil)$
 
 =head1 DESCRIPTION
 
