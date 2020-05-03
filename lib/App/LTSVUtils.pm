@@ -86,7 +86,7 @@ sub ltsvutil {
         chomp($row0);
         my $row = {};
         for my $col0 (split /\t/, $row0) {
-            $col0 =~ /(.+):(.*)/ or die "Row $i: Invalid column '$col0': must be in LABEL:VAL format\n";
+            $col0 =~ /(.+?):(.*)/ or die "Row $i: Invalid column '$col0': must be in LABEL:VAL format\n";
             $row->{$1} = $2;
         }
         $row;
